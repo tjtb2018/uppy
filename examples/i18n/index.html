@@ -95,53 +95,43 @@
         <a href="/examples">Examples</a>
       
     </h2>
+
     <ul class="menu-root">
       
         
         
         
-        
-        
+          
+          
+          
           <li>
             <a href="/examples/dashboard/" class="sidebar-link">Dashboard</a>
           </li>
         
-      
-        
-        
-        
-        
-        
+          
+          
+          
           <li>
             <a href="/examples/dragdrop/" class="sidebar-link">Drag and Drop</a>
           </li>
         
-      
-        
-        
-        
-        
-        
+          
+          
+          
           <li>
             <a href="/examples/xhrupload/" class="sidebar-link">XHR Upload</a>
           </li>
         
-      
-        
-        
-        
-        
-        
+          
+          
+          
           <li>
             <a href="/examples/i18n/" class="sidebar-link current">Bundle & i18n</a>
           </li>
         
-      
-        
-        
-        
-        
-        
+          
+          
+          
           <li>
             <a href="/examples/statusbar/" class="sidebar-link">Status Bar</a>
           </li>
@@ -149,21 +139,25 @@
       
         
         
-        
-        
-        
           <li>
-            <a href="/examples/transloadit/" class="sidebar-link">Transloadit</a>
+            
+            <h3><a href="/examples/markdown-snippets/">File Processing</a></h3>
+            
           </li>
         
-      
         
-        
-        
-        
-        
+          
+          
+          
           <li>
             <a href="/examples/markdown-snippets/" class="sidebar-link">Robodog Markdown Snippets</a>
+          </li>
+        
+          
+          
+          
+          <li>
+            <a href="/examples/transloadit/" class="sidebar-link">Transloadit</a>
           </li>
         
       
@@ -191,6 +185,7 @@ allowtransparency="true" frameborder="0" scrolling="0" width="100" height="20"><
   </div>
 </div>
 
+
 <div class="Content js-Content examples with-sidebar">
   <h1>Bundle & i18n Example</h1>
 
@@ -200,13 +195,13 @@ allowtransparency="true" frameborder="0" scrolling="0" width="100" height="20"><
 
 <link rel="stylesheet" href="app.css">
 <!-- Basic Uppy styles. You can use Transloadit's CDN, Edgly:
-https://transloadit.edgly.net/releases/uppy/v0.30.3/uppy.min.css -->
+https://transloadit.edgly.net/releases/uppy/v0.30.4/uppy.min.css -->
 <link rel="stylesheet" href="/uppy/uppy.min.css">
 
 <div class="UppyDragDrop"></div>
 
 <!-- Load Uppy pre-built bundled version. You can use Transloadit's CDN, Edgly:
-https://transloadit.edgly.net/releases/uppy/v0.30.3/uppy.min.js -->
+https://transloadit.edgly.net/releases/uppy/v0.30.4/uppy.min.js -->
 <script src="/uppy/uppy.min.js"></script>
 <script>
   var uppy = Uppy.Core({ debug: true, autoProceed: true });
@@ -236,13 +231,13 @@ https://transloadit.edgly.net/releases/uppy/v0.30.3/uppy.min.js -->
   To load the pre-built bundle (from a CDN) we’re using the following HTML and JavaScript:
 </p>
 <figure class="highlight html"><table><tr><td class="code"><pre><span class="token comment">&lt;!-- Basic Uppy styles. You can use Transloadit's CDN, Edgly:
-https://transloadit.edgly.net/releases/uppy/v0.30.3/uppy.min.css --></span>
+https://transloadit.edgly.net/releases/uppy/v0.30.4/uppy.min.css --></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>stylesheet<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>/uppy/uppy.min.css<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
 
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>UppyDragDrop<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
 
 <span class="token comment">&lt;!-- Load Uppy pre-built bundled version. You can use Transloadit's CDN, Edgly:
-https://transloadit.edgly.net/releases/uppy/v0.30.3/uppy.min.js --></span>
+https://transloadit.edgly.net/releases/uppy/v0.30.4/uppy.min.js --></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>/uppy/uppy.min.js<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token script language-javascript"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">></span></span><span class="token script language-javascript">
   <span class="token keyword">var</span> uppy <span class="token operator">=</span> Uppy<span class="token punctuation">.</span><span class="token function">Core</span><span class="token punctuation">(</span><span class="token punctuation">{</span> debug<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span> autoProceed<span class="token punctuation">:</span> <span class="token boolean">true</span> <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
@@ -270,9 +265,9 @@ https://transloadit.edgly.net/releases/uppy/v0.30.3/uppy.min.js --></span>
     is actively developed and the example section
     is our playground. Things might not work, but we're working hard to improve.</p>
   <p>We're on a monthly release cycle and our latest version is
-    <a href="https://github.com/transloadit/uppy/blob/master/CHANGELOG.md#0303">v0.30.3</a>,
+    <a href="https://github.com/transloadit/uppy/blob/master/CHANGELOG.md#0304">v0.30.4</a>,
     but the example pages reflect the latest work in our master branch. Here's
-    <a href="https://github.com/transloadit/uppy/compare/v0.30.3...master">what changed in master since v0.30.3</a>
+    <a href="https://github.com/transloadit/uppy/compare/v0.30.4...master">what changed in master since v0.30.4</a>
     in terms of commits, while the CHANGELOG
     provides a higher level view of the things planned for our
     <a href="https://github.com/transloadit/uppy/blob/master/CHANGELOG.md#next">next release</a>.</p>
